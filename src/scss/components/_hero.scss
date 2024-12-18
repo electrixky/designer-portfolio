@@ -1,0 +1,39 @@
+.hero {
+  height: 85vh;
+  background-image: url("../../../dist/assets/images/hero/header_bg.png") ;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+
+  &__content {
+    height: 100%;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("../../../dist/assets/images/hero/me1.png");
+    background-position: right center;
+    background-size: 650px auto;
+    background-repeat: no-repeat;
+    margin-right: -50px;
+    padding-bottom: 40px;
+  }
+
+  &__title {
+    font-family: "Solway", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  &__description {
+    max-width: 40%;
+  }
+}
