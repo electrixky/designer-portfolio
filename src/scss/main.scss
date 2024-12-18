@@ -28,9 +28,28 @@
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  margin-bottom: 2rem;
 }
 
 main, section {
   margin-bottom: 2rem;
 }
+
+.button {
+  border-radius: 50px;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+}
+
+.button--primary {
+  background-color: #458FF6;
+  color: white;
+  padding: 0.5rem 3rem;
+}
+
+.button--secondary {
+  color: #458FF6;
+  border: 2px solid #458FF6;
+  padding: 0.5rem 2rem;
+}
+

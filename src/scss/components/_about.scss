@@ -1,10 +1,14 @@
 .about-me {
-  margin-bottom: 5rem;
+  margin-bottom: 7rem;
 
   &__content {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  &__title {
+    margin-bottom: 2rem;
   }
 
   &__description {
@@ -22,7 +26,7 @@
   &__icon-item {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
   }
 
   &__icon-text {
