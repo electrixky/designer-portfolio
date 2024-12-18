@@ -1,0 +1,31 @@
+.about-me {
+  margin-bottom: 5rem;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__description {
+    text-align: center;
+    max-width: 80%;
+    margin-bottom: 40px;
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+
+  &__icon-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__icon-text {
+    color: #5A98F2;
+  }
+}
