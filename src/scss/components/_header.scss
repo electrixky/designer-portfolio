@@ -3,5 +3,11 @@
 
   &__list {
     display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+  }
+
+  &__item {
+
   }
 }
