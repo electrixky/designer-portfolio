@@ -1,6 +1,5 @@
 .why-me {
-  //display: flex;
-  //flex-direction: column;
+  margin-bottom: 5rem;
 
 
   &__subsection {
@@ -12,7 +11,7 @@
 
   &__subsection--second {
     margin: 1rem auto 0;
-    grid-template-columns: 0.9fr 1.1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 3rem;
     padding-left: 30px;
   }
