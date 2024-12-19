@@ -1,8 +1,5 @@
-import Swiper from 'swiper';
-import 'swiper/swiper-bundle.css';
-
-new Swiper('.slider', {
-  loop: true,
+new Swiper('.swiper', {
+  loop: false,
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
