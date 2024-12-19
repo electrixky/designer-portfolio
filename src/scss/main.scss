@@ -6,6 +6,7 @@
 @import "components/hero";
 @import "components/about";
 @import "components/works";
+@import "components/whyme";
 @import "components/testimonials";
 @import "components/contact";
 @import "components/footer";
@@ -37,7 +38,7 @@ main, section {
 .button {
   border-radius: 50px;
   font-weight: bold;
-  display: block;
+  display: inline-block;
   margin: 0 auto;
 }
 

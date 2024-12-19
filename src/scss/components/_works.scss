@@ -1,8 +1,9 @@
 .my-works {
   display: flex;
+  text-align: center;
+  margin-bottom: 5rem;
 
   &__subtitle {
-    text-align: center;
     text-transform: uppercase;
     font-family: "Solway", sans-serif;
     font-size: 24px;
