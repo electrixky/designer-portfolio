@@ -1,0 +1,25 @@
+.design-drop {
+
+  &--hero {
+    background: url("../../../dist/assets/images/hero/drop.png") no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: calc(50% - 25px);
+    bottom: -20px;
+    left: 0;
+    position: absolute;
+  }
+
+  &--works {
+    background: url("../../../dist/assets/images/works/drop2.png") no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 1220px;
+    //top: 0;
+    //bottom: -200px;
+    left: 140px;
+    position: absolute;
+  }
+}

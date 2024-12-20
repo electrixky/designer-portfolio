@@ -2,13 +2,18 @@
   display: flex;
   text-align: center;
   margin-bottom: 5rem;
+  position: relative;
+  background-image: url("../../../dist/assets/images/works/works-bg.png");
+  background-position: right center;
+  background-size: 800px auto;
+  background-repeat: no-repeat;
 
   &__subtitle {
     text-transform: uppercase;
     font-family: "Solway", sans-serif;
     font-size: 24px;
     font-weight: 300;
-    margin-bottom: 4rem;
+    margin-bottom: 8rem;
     opacity: 0.7;
   }
 

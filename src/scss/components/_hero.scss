@@ -40,15 +40,3 @@
     line-height: 32px;
   }
 }
-
-.design-element--drop {
-  background: url("../../../dist/assets/images/hero/drop.png") no-repeat;
-  //background-color: red;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: 1;
-  top: calc(50% - 25px);
-  bottom: -20px;
-  left: 0;
-}
