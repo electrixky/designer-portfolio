@@ -1,0 +1,41 @@
+.footer {
+  max-height: 200px;
+  background: linear-gradient(181deg, #CDCBD9 -6.17%, #A2A1AB 74.16%);
+  color: white;
+
+  &__content {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1.2fr 1.8fr;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
+  &__title {
+    font-size: 30px;
+    margin-bottom: 1rem;
+  }
+
+  &__copyright {
+    font-weight: 300;
+    color: white;
+  }
+
+  &__contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__email, &__phone {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  &__social-icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+}
