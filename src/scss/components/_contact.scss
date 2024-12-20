@@ -1,0 +1,55 @@
+.contact {
+  background-size: cover;
+  background: url("../../../dist/assets/images/contact/contact-bg.png") no-repeat center 0;
+  padding: 6rem 0 4rem;
+}
+
+.section__title--contact {
+  text-align: left !important;
+}
+
+.section__subtitle--contact {
+  text-align: left;
+  text-transform: uppercase;
+  font-family: "Solway", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 56px;
+  opacity: 0.7;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: end;
+  gap: 50px;
+
+  &__inputs {
+
+  }
+
+
+  &__input-container {
+    display: flex;
+  }
+
+  label {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  input, textarea {
+    background-color: #E5E9F6;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    font-family: "Noto Sans", sans-serif;
+    letter-spacing: 1.1px;
+  }
+
+  input, textarea:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}

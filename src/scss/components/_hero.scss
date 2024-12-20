@@ -1,7 +1,7 @@
 .hero {
   height: 85vh;
   background-image: url("../../../dist/assets/images/hero/header_bg.png") ;
-  background-position: center center;
+  background-position: center -50px;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -35,5 +35,6 @@
 
   &__description {
     max-width: 40%;
+    font-size: 18px;
   }
 }
