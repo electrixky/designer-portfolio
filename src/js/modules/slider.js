@@ -1,11 +1,12 @@
 new Swiper('.swiper', {
-  loop: false,
+  slidesPerView: 1,
+  spaceBetween: 30,
   pagination: {
     el: '.swiper-pagination',
-    clickable: true,
+    clickable: true
   },
   navigation: {
     nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+    prevEl: '.swiper-button-prev'
+  }
 });
