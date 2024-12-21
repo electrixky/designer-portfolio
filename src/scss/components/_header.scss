@@ -5,6 +5,7 @@
   &__list {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     gap: 40px;
   }
 
@@ -15,7 +16,11 @@
   &__lang {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.1rem;
+
+    &-btn {
+      color: #5f5d65;
+    }
   }
 
   &__lang-btn {

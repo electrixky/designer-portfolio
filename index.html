@@ -36,11 +36,10 @@
   <div class="wrapper">
     <nav class="header__nav">
       <ul class="header__list">
-        <li class="header__item"><a href="#" class="header__link">Наверх</a></li>
-        <li class="header__item"><a href="#about-me" class="header__link">Про мене</a></li>
-        <li class="header__item"><a href="#my-works" class="header__link">Роботи</a></li>
-        <li class="header__item"><a href="#why-me" class="header__link">Чому саме я?</a></li>
-        <li class="header__item"><a href="#contact" class="header__link">Контакти</a></li>
+        <li class="header__item"><a href="#about-me" class="header__link" data-lang-key="nav.about">Про мене</a></li>
+        <li class="header__item"><a href="#my-works" class="header__link" data-lang-key="nav.works">Роботи</a></li>
+        <li class="header__item"><a href="#why-me" class="header__link" data-lang-key="nav.why">Чому саме я?</a></li>
+        <li class="header__item"><a href="#contact" class="header__link" data-lang-key="nav.contact">Контакти</a></li>
         <li class="header__item">
           <div class="header__lang">
             <button class="header__lang-btn header__lang-btn--active" data-lang="ua">UA</button>
@@ -69,8 +68,9 @@
 <section class="about-me" id="about-me">
   <div class="wrapper">
     <div class="about-me__content">
-      <h3 class="section__title about-me__title">Про мене</h3>
-      <p class="section__text about-me__description">Мене звати Діана. Я родом з українського міста Вінниці. Саме там я
+      <h3 class="section__title about-me__title" data-lang-key="about.title">Про мене</h3>
+      <p class="section__text about-me__description" data-lang-key="about.text">Мене звати Діана. Я родом з українського
+        міста Вінниці. Саме там я
         вперше познайомилась з графічними редакторами у комп’ютерній школі, ще у свої 10. З того часу мені цікаво
         створювати та експериментувати в фотошопі та ілюстраторі. Після школи я хотіла йти на архітектора, але вступила
         на
@@ -100,7 +100,7 @@
               </defs>
             </svg>
           </svg>
-          <span class="about-me__icon-text">13.02.1998</span>
+          <span class="about-me__icon-text" data-lang-key="about.bd">13.02.1998</span>
         </div>
         <div class="about-me__icon-item">
           <svg class="about-me__icon" width="50" height="50">
@@ -119,7 +119,7 @@
                 fill="#5A98F2"/>
             </svg>
           </svg>
-          <span class="about-me__icon-text">Львів</span>
+          <span class="about-me__icon-text" data-lang-key="about.place">Львів</span>
         </div>
         <div class="about-me__icon-item">
           <svg class="about-me__icon" width="54" height="48">
@@ -132,7 +132,7 @@
                 fill="#5A98F2"/>
             </svg>
           </svg>
-          <span class="about-me__icon-text">Фрілансер</span>
+          <span class="about-me__icon-text" data-lang-key="about.freelance">Фрілансер</span>
         </div>
         <div class="about-me__icon-item">
           <a href="https://www.behance.net/Dianaskorn" target="_blank">
@@ -248,8 +248,8 @@
 
 <section class="my-works" id="my-works">
   <div class="wrapper">
-    <h3 class="section__title">Мої роботи</h3>
-    <h4 class="section__subtitle my-works__subtitle">як графічного дизайнера</h4>
+    <h3 class="section__title" data-lang-key="my-works.title">Мої роботи</h3>
+    <h4 class="section__subtitle my-works__subtitle" data-lang-key="my-works.subtitle">як графічного дизайнера</h4>
     <div class="my-works__gallery">
       <img src="dist/assets/images/works/work1.jpeg" alt="" class="my-works__image">
       <img src="dist/assets/images/works/work2.jpeg" alt="" class="my-works__image">
@@ -262,6 +262,7 @@
       class="my-works__button button button--secondary"
       target="_blank"
       href="https://www.behance.net/Dianaskorn"
+      data-lang-key="my-works.button"
     >Більше робіт</a>
   </div>
 </section>
@@ -272,8 +273,9 @@
     <div class="why-me__subsection">
       <img class="why-me__image" src="dist/assets/images/why-me/me2.png" alt="">
       <div>
-        <h4 class="why-me__subtitle">Чим я можу допомогти?</h4>
-        <p class="section__text">Думаю, графічний дизайн покликаний, щоб допомогти справі, якою ви займаєтесь. стати
+        <h4 class="why-me__subtitle" data-lang-key="why-me.subtitle--first">Чим я можу допомогти?</h4>
+        <p class="section__text" data-lang-key="why-me.text--first">Думаю, графічний дизайн покликаний, щоб допомогти
+          справі, якою ви займаєтесь. стати
           видимою
           та більш зрозумілою
           для людей. Його завдання донести вашій аудиторії цінність вашої справи чи продукту. Вірю, що дизайн - не
@@ -284,8 +286,9 @@
     </div>
     <div class="why-me__subsection why-me__subsection--second">
       <div class="why-me__subsection-text--second">
-        <h4 class="why-me__subtitle">Які терміни роботи та її вартість?</h4>
-        <p class="section__text">Творча робота - це часто не про чіткі терміни роботи, але кожен проект має свої рамки.
+        <h4 class="why-me__subtitle" data-lang-key="why-me.subtitle--second">Які терміни роботи та її вартість?</h4>
+        <p class="section__text" data-lang-key="why-me.text--second">Творча робота - це часто не про чіткі терміни
+          роботи, але кожен проект має свої рамки.
           Все
           залежить від бази, яку
           ви вже маєте. Чим з більшою кількістю матеріалу клієнт приходить - тим більше він пришвидшує роботу дизайнера.
@@ -301,19 +304,21 @@
   <div class="wrapper">
     <div class="testimonials__container">
       <div class="testimonials__gradient-box">
-        <h3 class="section__title section__title--testimonials">Відгуки моїх клієнтів</h3>
+        <h3 class="section__title section__title--testimonials" data-lang-key="testimonials.title">Відгуки моїх
+          клієнтів</h3>
         <div class="slider swiper">
           <div class="swiper-wrapper">
             <div class="slider__item swiper-slide">
               <div class="slider__client-block">
                 <img src="dist/assets/images/testimonials/max.png" alt="" class="slider__photo">
                 <div class="slider__client-info">
-                  <p class="slider__name">Максим Вітоцький</p>
-                  <p class="slider__position">Масажист</p>
+                  <p class="slider__name" data-lang-key="testimonials.name--first">Максим Вітоцький</p>
+                  <p class="slider__position" data-lang-key="testimonials.position--first">Масажист</p>
                 </div>
               </div>
               <div class="slider__comment-block">
-                <p class="slider__comment">Вдячний за виконану роботу! Звернувся з бажанням розробити візитки та бланк
+                <p class="slider__comment" data-lang-key="testimonials.comment--first">Вдячний за виконану роботу!
+                  Звернувся з бажанням розробити візитки та бланк
                   замовлень. Все виконано згідно з моїми побажаннями. Якісно та в термінах. <br/>Раджу!</p>
               </div>
             </div>
@@ -321,12 +326,13 @@
               <div class="slider__client-block">
                 <img src="dist/assets/images/testimonials/sveta.png" alt="" class="slider__photo">
                 <div class="slider__client-info">
-                  <p class="slider__name">Світлана Курієвич</p>
-                  <p class="slider__position">Бухгалтер</p>
+                  <p class="slider__name" data-lang-key="testimonials.name--second">Світлана Курієвич</p>
+                  <p class="slider__position" data-lang-key="testimonials.position--second">Бухгалтер</p>
                 </div>
               </div>
               <div class="slider__comment-block">
-                <p class="slider__comment">Дуже задоволена :) Замовила дизайн логотипа та рекламного флаєра -
+                <p class="slider__comment" data-lang-key="testimonials.comment--second">Дуже задоволена :) Замовила
+                  дизайн логотипа та рекламного флаєра -
                   результат
                   перевершив очікування. Усе швидко та якісно. Рекомендую!</p>
               </div>
@@ -335,12 +341,13 @@
               <div class="slider__client-block">
                 <img src="dist/assets/images/testimonials/vova.png" alt="" class="slider__photo">
                 <div class="slider__client-info">
-                  <p class="slider__name">Андрій Сташевич</p>
-                  <p class="slider__position">Підприємець</p>
+                  <p class="slider__name" data-lang-key="testimonials.name--third">Андрій Сташевич</p>
+                  <p class="slider__position" data-lang-key="testimonials.position--third">Підприємець</p>
                 </div>
               </div>
               <div class="slider__comment-block">
-                <p class="slider__comment">Велика подяка за роботу! Звернувся за створенням фірмового стилю для
+                <p class="slider__comment" data-lang-key="testimonials.comment--third">Велика подяка за роботу!
+                  Звернувся за створенням фірмового стилю для
                   компанії.
                   Отримав професійний підхід, швидкий зворотний зв'язок і чудовий результат.</p>
               </div>
@@ -359,32 +366,34 @@
 
 <section class="contact" id="contact">
   <div class="wrapper">
-    <h3 class="section__title section__title--contact">Співпраця</h3>
-    <h4 class="section__subtitle section__subtitle--contact">Залиште вашу пропозицію до співпраці тут</h4>
+    <h3 class="section__title section__title--contact" data-lang-key="contact.title">Співпраця</h3>
+    <h4 class="section__subtitle section__subtitle--contact" data-lang-key="contact.subtitle">Залиште вашу пропозицію до
+      співпраці тут</h4>
     <form class="contact__form form" action="">
       <div class="form__inputs">
         <div>
           <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 20px;">
             <div class="form__input-container">
-              <label class="form__label" for="name">Повне ім’я</label>
+              <label class="form__label" for="name" data-lang-key="contact.name">Повне ім’я</label>
               <input type="text" class="form__input" id="name" name="name" required>
             </div>
             <div class="form__input-container">
-              <label class="form__label" for="surname">Прізвище</label>
+              <label class="form__label" for="surname" data-lang-key="contact.surname">Прізвище</label>
               <input type="text" class="form__input" id="surname" name="surname">
             </div>
           </div>
           <div class="form__input-container">
-            <label class="form__label" for="email">Ваша електронна скринька</label>
+            <label class="form__label" for="email" data-lang-key="contact.email">Ваша електронна скринька</label>
             <input type="email" class="form__input" id="email" name="email" required>
           </div>
           <div class="form__input-container">
-            <label class="form__label" for="message">Що потрібно зробити?</label>
+            <label class="form__label" for="message" data-lang-key="contact.comment">Що потрібно зробити?</label>
             <textarea class="form__input" id="message" name="message" rows="5" required></textarea>
           </div>
         </div>
       </div>
-      <button class="form__button button button--primary" style="margin-bottom: 10px; justify-self: start;">Надіслати
+      <button class="form__button button button--primary" data-lang-key="contact.button"
+              style="margin-bottom: 10px; justify-self: start;">Надіслати
       </button>
     </form>
   </div>
@@ -394,7 +403,7 @@
   <div class="wrapper">
     <div class="footer__content">
       <div>
-        <h5 class="footer__title">Дякую за те, що були тут.</h5>
+        <h5 class="footer__title" data-lang-key="footer.title">Дякую за те, що були тут.</h5>
         <p class="footer__copyright">©Electrixky 2024. All rights reserved.</p>
       </div>
       <div class="footer__contacts">
