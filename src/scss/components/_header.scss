@@ -11,4 +11,29 @@
   &__link {
     color: #7D7987;
   }
+
+  &__lang {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  &__lang-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+
+    &--active {
+      font-weight: bold;
+    }
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &__lang-separator {
+    color: #ccc;
+  }
 }
