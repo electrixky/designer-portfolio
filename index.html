@@ -369,17 +369,17 @@
     <h3 class="section__title section__title--contact" data-lang-key="contact.title">Співпраця</h3>
     <h4 class="section__subtitle section__subtitle--contact" data-lang-key="contact.subtitle">Залиште вашу пропозицію до
       співпраці тут</h4>
-    <form class="contact__form form" action="">
+    <form class="contact__form form" id="contact-form" action="">
       <div class="form__inputs">
         <div>
           <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 20px;">
             <div class="form__input-container">
               <label class="form__label" for="name" data-lang-key="contact.name">Повне ім’я</label>
-              <input type="text" class="form__input" id="name" name="name" required>
+              <input type="text" class="form__input" id="name" name="from_name" required>
             </div>
             <div class="form__input-container">
               <label class="form__label" for="surname" data-lang-key="contact.surname">Прізвище</label>
-              <input type="text" class="form__input" id="surname" name="surname">
+              <input type="text" class="form__input" id="surname" name="from_surname">
             </div>
           </div>
           <div class="form__input-container">
@@ -392,7 +392,7 @@
           </div>
         </div>
       </div>
-      <button class="form__button button button--primary" data-lang-key="contact.button"
+      <button type="submit" class="form__button button button--primary" data-lang-key="contact.button"
               style="margin-bottom: 10px; justify-self: start;">Надіслати
       </button>
     </form>
@@ -471,6 +471,7 @@
 
 <script type="module" src="src/js/modules/slider.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script type="module" src="src/js/main.js"></script>
 </body>
 
