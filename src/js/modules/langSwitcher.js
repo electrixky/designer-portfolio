@@ -2,7 +2,7 @@ import translations from '../translations.js';
 
 export default class LanguageSwitcher {
   constructor() {
-    this.currentLang = 'ua';
+    this.currentLang = localStorage.getItem('selectedLanguage') || 'ua'; // Load saved language or default to 'ua'
     this.init();
   }
 
@@ -10,6 +10,7 @@ export default class LanguageSwitcher {
     // Get all language buttons
     const langButtons = document.querySelectorAll('.header__lang-btn');
 
+    // Switch to the saved or default language
     this.switchLanguage(this.currentLang);
     this.updateButtonStates(this.currentLang);
 
@@ -25,12 +26,6 @@ export default class LanguageSwitcher {
         button.classList.add('header__lang-btn--active');
       });
     });
-
-    // Load saved language preference
-    const savedLang = localStorage.getItem('selectedLanguage');
-    if (savedLang) {
-      this.switchLanguage(savedLang);
-    }
   }
 
   updateButtonStates(activeLang) {
@@ -57,3 +52,4 @@ export default class LanguageSwitcher {
     });
   }
 }
+
