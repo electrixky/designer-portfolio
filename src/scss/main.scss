@@ -16,7 +16,7 @@
 
 .wrapper {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -54,3 +54,8 @@ main, section {
   padding: 0.5rem 2rem;
 }
 
+@media (max-width: 1500px) {
+  .wrapper {
+    max-width: 1200px;
+  }
+}

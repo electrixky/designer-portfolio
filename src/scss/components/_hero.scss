@@ -1,5 +1,5 @@
 .hero {
-  height: 85vh;
+  //height: 85vh;
   background-image: url("../../../dist/assets/images/hero/header_bg.png");
   background-position: center -50px;
   background-size: cover;
@@ -21,7 +21,7 @@
     background-size: 700px auto;
     background-repeat: no-repeat;
     margin-right: -50px;
-    padding-bottom: 150px;
+    padding: 150px 0;
   }
 
   &__title {
@@ -36,7 +36,14 @@
 
   &__description {
     max-width: 40%;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 32px;
+  }
+}
+
+
+@media (max-width: 1500px) {
+  .hero__description {
+    font-size: 18px;
   }
 }
