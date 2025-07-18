@@ -1,13 +1,14 @@
 .hero {
   //height: 85vh;
   background-image: url("../../../dist/assets/images/hero/header_bg.png");
-  background-position: center -50px;
+  background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
   position: relative;
+  //height: 800px;
 
   &__content {
     height: 100%;
@@ -26,7 +27,7 @@
 
   &__title {
     //font-family: "Solway", sans-serif;
-    font-size: 48px;
+    font-size: clamp(2.25rem, 2vw + 1rem, 3rem);
     font-weight: 700;
     line-height: 70px;
     text-align: left;
@@ -36,14 +37,32 @@
 
   &__description {
     max-width: 40%;
-    font-size: 20px;
+    font-size: clamp(1rem, 1vw + 0.5rem, 1.25rem);
     line-height: 32px;
   }
 }
 
 
+@media (max-width: 1750px) {
+  .hero {
+    //background-position: center -200px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .hero {
+    //background-position: center -150px;
+  }
+}
+
 @media (max-width: 1500px) {
-  .hero__description {
-    font-size: 18px;
+  .hero {
+    background-position: center -50px;
+  }
+}
+
+@media (max-width: 1450px) {
+  .hero {
+    //background-position: center -80px;
   }
 }

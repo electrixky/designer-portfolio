@@ -1,6 +1,8 @@
 .contact {
   background-size: cover;
-  background: url("../../../dist/assets/images/contact/contact-bg.png") no-repeat center 0;
+  background-image: url("../../../dist/assets/images/contact/contact-bg.png");
+  background-repeat: no-repeat;
+  background-position: center top;
   padding: 6rem 0 4rem;
   margin-bottom: 0;
 }
