@@ -42,27 +42,23 @@
   }
 }
 
-
-@media (max-width: 1750px) {
-  .hero {
-    //background-position: center -200px;
-  }
-}
-
-@media (max-width: 1600px) {
-  .hero {
-    //background-position: center -150px;
-  }
-}
-
 @media (max-width: 1500px) {
   .hero {
     background-position: center -50px;
   }
 }
 
-@media (max-width: 1450px) {
-  .hero {
-    //background-position: center -80px;
+@media (max-width: 1200px) {
+  .hero__content {
+    background-size: 650px auto;
   }
 }
+
+@media (max-width: 1200px) {
+  .hero__content {
+    background-size: 600px auto;
+    padding: 110px 0;
+  }
+}
+
+

@@ -5,7 +5,7 @@
     width: 100%;
     height: 100%;
     z-index: 1;
-    top: calc(50% - 25px);
+    top: calc(50% - 150px);
     bottom: -20px;
     left: 0;
     position: absolute;
@@ -21,5 +21,17 @@
     //bottom: -200px;
     left: 140px;
     position: absolute;
+  }
+}
+
+@media (max-width: 1450px) {
+  .design-drop--hero {
+    top: calc(50% - 50px);
+  }
+}
+
+@media (max-width: 1200px) {
+  .design-drop--hero {
+    left: -80px;
   }
 }
