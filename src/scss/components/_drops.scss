@@ -35,3 +35,16 @@
     left: -80px;
   }
 }
+
+@media (max-width: 850px) {
+  .design-drop--hero {
+    left: -165px;
+    top: calc(50% - 230px);
+    transform: rotateZ(340deg);
+  }
+
+  .design-drop--works {
+    top: 1160px;
+    left: 85px;
+  }
+}
