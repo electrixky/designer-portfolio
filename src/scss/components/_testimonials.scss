@@ -157,3 +157,13 @@
     }
   }
 }
+
+
+@media (max-width: 850px) {
+  .section__title--testimonials {
+    margin-bottom: 2rem;
+  }
+  .testimonials__gradient-box {
+    padding: 1.5rem 2rem 1rem
+  }
+}
