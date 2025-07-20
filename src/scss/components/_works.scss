@@ -39,4 +39,16 @@
   .my-works {
     background-position: 130px center;
   }
+  .my-works__gallery {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  .my-works__gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .my-works__subtitle {
+    margin-bottom: 4rem;
+  }
 }

@@ -48,3 +48,9 @@
     left: 85px;
   }
 }
+
+@media (max-width: 800px) {
+  .design-drop--hero {
+    top: calc(50% - 280px);
+  }
+}

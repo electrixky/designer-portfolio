@@ -85,11 +85,12 @@
 
   &__comment-block {
     padding: 30px;
+    font-size: clamp(14px, calc(0.375vw + 12.8px), 20px);
   }
 
   &__comment {
     color: white;
-    font-size: 20px;
+    //font-size: clamp(14px, calc(0.96vw + 0.32px), 20px);
     line-height: 1.6;
     font-weight: 300;
     letter-spacing: 0.6px;
@@ -161,9 +162,12 @@
 
 @media (max-width: 850px) {
   .section__title--testimonials {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
   .testimonials__gradient-box {
-    padding: 1.5rem 2rem 1rem
+    padding: 1.5rem 2rem 2rem
+  }
+  .slider__comment {
+
   }
 }
